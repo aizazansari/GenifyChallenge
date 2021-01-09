@@ -12,4 +12,9 @@
 - static: contains css styling
 - templates: contains html files
 - trained.model: trained this model using scratch_work.ipnyb for predictions on input data
-- when_less_is_more.py: Kaggle notebook (https://www.kaggle.com/sudalairajkumar/when-less-is-more) on which our training code is based upon. 
+- when_less_is_more.py: Kaggle notebook on which our training code is based upon. 
+
+## Resources utilized
+- Flask APIs: https://github.com/MaajidKhan/DeployMLModel-Flask
+- Sample Inputs: https://www.genify.ai/en/recosysdemo
+- Training code: https://www.kaggle.com/sudalairajkumar/when-less-is-more
