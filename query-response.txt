@@ -1,0 +1,37 @@
+Example query-response pairs:
+
+- Example 1
+Query: 
+	Sex: H
+	Country of Residence: ES
+	Age: 23
+	Rent: 30000
+	Segment: 03 - UNIVERSITARIO
+	Active Client: 1
+
+Response:
+	Recommended products are ind_recibo_ult1, ind_nomina_ult1, ind_nom_pens_ult1, ind_cno_fin_ult1, ind_cco_fin_ult1, ind_ecue_fin_ult1, ind_reca_fin_ult1
+
+- Example 2
+Query:
+	Sex: V
+	Country of Residence: ES
+	Age: 55
+	Rent: 99000
+	Segment: 02 - PARTICULARES
+	Active Client: 1
+Response:
+	Recommended products are ind_recibo_ult1, ind_dela_fin_ult1, ind_tjcr_fin_ult1, ind_nom_pens_ult1, ind_nomina_ult1, ind_reca_fin_ult1, ind_cno_fin_ult1
+
+- Example 3
+Query:
+	Sex: H	
+	Country of Residence: PK
+	Age: 32
+	Rent: 27000
+	Segment: 02 - PARTICULARES
+	Active Client: 0
+Response:
+	ind_recibo_ult1, ind_nom_pens_ult1, ind_reca_fin_ult1, ind_nomina_ult1, ind_cno_fin_ult1, ind_tjcr_fin_ult1, ind_ecue_fin_ult1
+
+	
