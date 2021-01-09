@@ -10,7 +10,9 @@ Query:
 	Active Client: 1
 
 Response:
-	Recommended products are ind_recibo_ult1, ind_nomina_ult1, ind_nom_pens_ult1, ind_cno_fin_ult1, ind_cco_fin_ult1, ind_ecue_fin_ult1, ind_reca_fin_ult1
+	{
+	"recs": "ind_recibo_ult1, ind_nomina_ult1, ind_nom_pens_ult1, ind_cno_fin_ult1, ind_cco_fin_ult1, ind_ecue_fin_ult1, ind_reca_fin_ult1"
+	}
 
 - Example 2
 Query:
@@ -21,7 +23,9 @@ Query:
 	Segment: 02 - PARTICULARES
 	Active Client: 1
 Response:
-	Recommended products are ind_recibo_ult1, ind_dela_fin_ult1, ind_tjcr_fin_ult1, ind_nom_pens_ult1, ind_nomina_ult1, ind_reca_fin_ult1, ind_cno_fin_ult1
+	{
+	"recs": "ind_recibo_ult1, ind_dela_fin_ult1, ind_tjcr_fin_ult1, ind_nom_pens_ult1, ind_nomina_ult1, ind_reca_fin_ult1, ind_cno_fin_ult1"
+	}
 
 - Example 3
 Query:
@@ -32,6 +36,8 @@ Query:
 	Segment: 02 - PARTICULARES
 	Active Client: 0
 Response:
-	ind_recibo_ult1, ind_nom_pens_ult1, ind_reca_fin_ult1, ind_nomina_ult1, ind_cno_fin_ult1, ind_tjcr_fin_ult1, ind_ecue_fin_ult1
+	{
+  	"recs": "ind_recibo_ult1, ind_nom_pens_ult1, ind_reca_fin_ult1, ind_nomina_ult1, ind_cno_fin_ult1, ind_tjcr_fin_ult1, ind_ecue_fin_ult1"
+	}
 
 	
